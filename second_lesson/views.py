@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    name = 'Sultanbek Murat'
+    name = 'первое изменение'
     return render(request, 'index.html', locals())
 
 def index2(request):
