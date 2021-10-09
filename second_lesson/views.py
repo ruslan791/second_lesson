@@ -6,7 +6,7 @@ def index(request):
     return render(request, 'index.html', locals())
 
 def index2(request):
-    name = 'Mike Jasson'
+    name = 'второе изменение'
     return render(request, 'index2.html', locals())
 
 def index3(request):
